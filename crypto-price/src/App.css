@@ -1,3 +1,87 @@
 body{
-    background-color: ;
+    background-color: #0A0A0A;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color:white
+}
+header{
+    color:white;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.322);
+    display: flex;
+    height:71px;
+    align-items: center;
+    justify-content: space-between;
+}
+header > h2{
+    color: #83d6f3;
+}
+.photos{
+    display: flex;
+}
+.cryptoBox{
+    border:1px solid #404b59;
+    background-color: rgb(10, 10, 22);
+    margin:100px 200px;
+}
+.cryptoBox > table{
+    width:100%;
+    text-align: center
+}
+.coinSymbol{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    /* padding-left: 100px; */
+    margin-right: -100px;
+}
+.coinSymbol > img{
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+th{
+    font-size: 22px;
+}
+td{
+    border-bottom: 1px solid #404b59;
+}
+table > thead > tr > th[data-value="crypto"]{
+    height:80px;
+    border-bottom: 1px solid #404b59;
+}
+.worse{
+    color:rgb(255, 0, 76);
+}
+.red{
+    color:red
+}
+.green{
+    color:yellowgreen;
+}
+.bgyellow{
+    background-color: rgb(255, 255, 76);
+}
+.blue{
+    color:blue;
+}
+.bgred{
+    background-color: red;
+}
+@media (min-width: 768px) {
+    header{
+        padding: 0 100px;
+    }
+    .cryptoBox{
+        margin:100px 100px;
+    }
+}
+@media (min-width: 1200px) {
+    header{
+        padding:0 200px;
+    }
+    .cryptoBox{
+        margin:100px 200px;
+    }
 }
